@@ -6,6 +6,7 @@ import com.deepmodi.task_manager_api.repository.TaskRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Service
@@ -19,6 +20,9 @@ public class TaskServiceImpl implements TaskService{
     }
     @Override
     public Task createTask(Task task) {
+        if (task.getCreatedDate() == null) {
+            task.setCreatedDate(LocalDateTime.now());
+        }
         return taskRepository.save(task);
     }
 

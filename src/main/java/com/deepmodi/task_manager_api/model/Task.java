@@ -22,7 +22,6 @@ public class Task {
 
     private String description;
 
-    @NotNull(message = "Created date is required.")
     private LocalDateTime createdDate;
 
     private LocalDate dueDate;
@@ -30,7 +29,7 @@ public class Task {
     private boolean completed;
 
     @PrePersist
-    private void onCreate(){
+    protected void onCreate(){
         createdDate = LocalDateTime.now();
     }
 }
