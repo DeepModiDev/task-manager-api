@@ -5,13 +5,12 @@
 Build a RESTful API for a simple task management system using Spring Boot.
 
 ## Features to Implement 🌟
-
-- [ ] Create a new task
-- [ ] Retrieve a single task by ID
-- [ ] Retrieve all tasks
-- [ ] Update an existing task
-- [ ] Delete a task
-- [ ] Mark a task as completed
+-  Create a new task
+-  Retrieve a single task by ID
+-  Retrieve all tasks
+-  Update an existing task
+-  Delete a task
+-  Mark a task as completed
 
 ## Data Model 🗂️
 
@@ -26,12 +25,12 @@ Build a RESTful API for a simple task management system using Spring Boot.
 
 ## API Endpoints 🚀
 
-- [ ] **POST** `/api/tasks` - Create a new task
-- [ ] **GET** `/api/tasks/{id}` - Retrieve a specific task
-- [ ] **GET** `/api/tasks` - Retrieve all tasks
-- [ ] **PUT** `/api/tasks/{id}` - Update a task
-- [ ] **DELETE** `/api/tasks/{id}` - Delete a task
-- [ ] **PATCH** `/api/tasks/{id}/complete` - Mark a task as completed
+-  **POST** `/api/tasks` - Create a new task
+-  **GET** `/api/tasks/{id}` - Retrieve a specific task
+-  **GET** `/api/tasks` - Retrieve all tasks
+-  **PUT** `/api/tasks/{id}` - Update a task
+-  **DELETE** `/api/tasks/{id}` - Delete a task
+-  **PATCH** `/api/tasks/{id}/complete` - Mark a task as completed
 
 ## Implementation Steps 🔧
 
@@ -51,9 +50,9 @@ A functioning RESTful API that allows clients to perform CRUD operations on task
 
 ## Testing 🧪
 
-- [ ] Use Postman or curl to test API endpoints manually
-- [ ] Verify all CRUD operations work as expected
-- [ ] Check appropriate status codes and error messages are returned
+-  Use Postman or curl to test API endpoints manually
+-  Verify all CRUD operations work as expected
+-  Check appropriate status codes and error messages are returned
 
 ## Bonus Challenges 🎁
 
