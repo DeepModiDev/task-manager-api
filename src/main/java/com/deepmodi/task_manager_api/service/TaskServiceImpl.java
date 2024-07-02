@@ -41,8 +41,8 @@ public class TaskServiceImpl implements TaskService{
     public Task updateTask(Long id, Task taskDetails) {
         Task task = getTaskById(id);
         task.setTitle(taskDetails.getTitle());
-        task.setDescription(task.getDescription());
-        task.setDueDate(task.getDueDate());
+        task.setDescription(taskDetails.getDescription());
+        task.setDueDate(taskDetails.getDueDate());
         return taskRepository.save(task);
     }
 
